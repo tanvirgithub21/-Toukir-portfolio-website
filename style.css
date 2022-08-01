@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "DM Sans", sans-serif;
+}
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 30px;
+}
+p {
+  margin-bottom: 2rem;
+}
+.heading-color {
+  color: orange;
+}
+.half-width {
+  width: 50%;
+  padding: 5%;
+}
+.half-width img {
+  width: 80%;
+}
+.flex-container {
+  display: flex;
+}
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(rgb(54, 54, 232), rgb(217, 58, 169));
+  padding: 10px 40px;
+  border-radius: 4px;
+  color: white;
+  font-weight: 700;
+}
+
+.shadow {
+  box-shadow: 10px 10px 20px gray;
+  width: 40%;
+  height: 400px;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 10px;
+}
+
+section.experiences h1 {
+  margin-bottom: 2rem;
+}
+
+section.experiences .flex-container .shadow h2 {
+  padding: 1.5rem 0;
+}
+
+section.experiences .flex-container .shadow h3 {
+  margin-bottom: 1rem;
+}
+#border-left1 {
+  border-left: 7px solid;
+  border-image: linear-gradient(red, rgb(39, 210, 136));
+  border-image-slice: 1;
+}
+
+#border-left2 {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+footer p {
+  margin-top: 7rem;
+  text-align: center;
+}
+.marge {
+  margin-bottom: 1rem;
+}
